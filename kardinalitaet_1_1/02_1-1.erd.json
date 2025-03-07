@@ -379,7 +379,7 @@
         "comment": "FK",
         "dataType": "INT",
         "default": "",
-        "options": 8,
+        "options": 12,
         "ui": {
           "keys": 2,
           "widthName": 60,
@@ -388,7 +388,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1741336258569,
+          "updateAt": 1741339385505,
           "createAt": 1741335923314
         }
       }
@@ -756,7 +756,8 @@
         "name": 1741336127167,
         "dataType": 1741335923312,
         "default": 1741335923312,
-        "comment": 1741336258568
+        "comment": 1741336258568,
+        "options(unique)": 1741339385504
       }
     ],
     "vuUz4a8sa6kVK6qdlfKEF": [
