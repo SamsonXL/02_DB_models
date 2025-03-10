@@ -8,8 +8,8 @@ DROP TABLE IF EXISTS design.cats;
 CREATE TABLE IF NOT EXISTS design.cats
 (
   id         INT         NOT NULL AUTO_INCREMENT COMMENT 'PK',
-  catname    VARCHAR(45) NOT NULL,
-  fur colour VARCHAR(45) NOT NULL,
+  cat_name    VARCHAR(45) NOT NULL,
+  fur_color VARCHAR(45) NOT NULL,
   PRIMARY KEY (id)
 ) COMMENT 'Tabs mit Katzen';
 
