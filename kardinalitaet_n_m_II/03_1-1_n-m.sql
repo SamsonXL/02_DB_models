@@ -1,4 +1,4 @@
-
+\! cls
 -- Vorbereitung
 USE design;
 DROP TABLE IF EXISTS purchases;
@@ -115,5 +115,3 @@ INSERT INTO purchases (servants_id, products_id) VALUES (2, 4);
 INSERT INTO purchases (servants_id, products_id) VALUES (3, 4);
 
 
--- Purchases: Inhalte 
-SELECT * FROM design.purchases;
